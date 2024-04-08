@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       });
 
-      document.getElementById('reset_button').addEventListener('click', function () {
+      document.getElementById('Reset').addEventListener('click', function () {
         gridItems.forEach(item => {
           item.style.backgroundColor = 'transparent';
         });
